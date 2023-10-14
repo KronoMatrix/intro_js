@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: black;
+}
+
+#watch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid cyan;
+    color: cyan;
+    font-family: monospace;
+    font-size: 1.7rem;
+}
